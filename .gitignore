@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+/currency-conversion-service/.mvn/wrapper/maven-wrapper.jar
+/currency-exchange-service/.mvn/wrapper/maven-wrapper.jar
+/currency-conversion-service/.mvn/wrapper/maven-wrapper.jar
+/currency-exchange-service/.mvn/wrapper/maven-wrapper.jar
