@@ -13,5 +13,5 @@ public interface CurrencyExchangeServiceProxy {
 //    @GetMapping("/currency-exchange/from/{from}/to/{to}")
     // with using ZUUL service name appended
     @GetMapping("/currency-exchange-service/currency-exchange/from/{from}/to/{to}")
-    CurrencyConversionHolder getExchangeValue(@PathVariable String from, @PathVariable String to);
+    public CurrencyConversionHolder getExchangeValue(@PathVariable("from") String from, @PathVariable("to") String to);
 }
