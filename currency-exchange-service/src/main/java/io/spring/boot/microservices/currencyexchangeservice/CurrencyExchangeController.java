@@ -24,4 +24,9 @@ public class CurrencyExchangeController {
         exchangeValue.setPort(Integer.parseInt(environment.getProperty("local.server.port")));
         return exchangeValue;
     }
+
+    @GetMapping("/execute")
+    public String execute() {
+        return "It is executed";
+    }
 }
